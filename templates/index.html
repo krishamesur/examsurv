@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title></title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+    body {
+      font-family: 'Josefin Sans', sans-serif;
+      background-image:black;
+    }
+
+    h1 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background-color: #13187c;
+      color: #B2CEDE
+    }
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height: 65%;
+
+    }
+
+   
+  </style>
+</head>
+
+<body>
+  
+  <img id="bg" class="center" src="{{ url_for('detect_face') }}">
+
+
+</body>
+
+</html>
